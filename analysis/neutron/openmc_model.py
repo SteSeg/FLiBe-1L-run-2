@@ -367,7 +367,7 @@ def baby_model():
 
     # BABY coordinates
     x_c = 587  # cm
-    y_c = 60  # cm
+    y_c = 72  # cm
     z_c = 100  # cm
     sphere, cllif_cell, cells = baby_geometry(x_c, y_c, z_c)
 
