@@ -190,9 +190,14 @@ def baby_geometry(x_c: float, y_c: float, z_c: float):
     src_supp_length = 40.00
     src_supp_height = 20.00
     src_supp_width = 2.54
+    # src_supp_position = [
+    #     (x_c - 13.50 + lead_width / 2, y_c, z_c - z_tab),
+    #     (x_c + 25.96 + lead_width / 2, y_c, z_c - z_tab),
+    # ]
+
     src_supp_position = [
-        (x_c - 13.50 + lead_width / 2, y_c, z_c - z_tab),
-        (x_c + 25.96 + lead_width / 2, y_c, z_c - z_tab),
+        (x_c + 28.0 + lead_width / 2, y_c, z_c - z_tab),
+        (x_c + 54.0 + lead_width / 2, y_c, z_c - z_tab),
     ]
     src_supports = []
     for position in src_supp_position:
